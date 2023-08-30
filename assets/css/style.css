@@ -1,6 +1,15 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
+/* Общие стили для логотипов в списке клиентов */
+.clients-item img {
+  width: 70%;
+  filter: none;
+}
+
+/* Эффект при наведении */
+.clients-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
 
 /**
